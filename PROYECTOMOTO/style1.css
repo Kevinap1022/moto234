@@ -1,0 +1,561 @@
+/* barra de navegacion*/
+.content-form__ul--nav {
+	width: 100%;
+	padding: 0px;
+	margin: 10px 5px 3px 5px;
+	position: relative;
+	background: rgb(0, 87, 218);
+	outline: 5px solid rgb(96, 0, 180);
+	border-radius: 21px;
+	box-shadow: 1px 1px 20px 5px rgb(255, 000, 255);
+
+}
+
+
+
+
+/*contenido de la barra*/
+.content-form__ul--contenido {
+	text-decoration: none;
+	display: inline-block;
+	margin: 12px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Roboto Mono", monospace;
+	position: relative;
+	top: -13px;
+	left: 10px;
+}
+ 
+
+
+
+/*decoracion de las letras y iconos*/
+.content-form__ul--contenido {
+	margin: 5px;
+	color: rgb(255, 255, 255);
+}
+
+.content-form__ul--contenido li {
+	margin: 10px;
+	color: rgb(255, 255, 255);
+}
+
+.content-form__ul--contenido i {
+	padding: 8px;
+}
+
+.content-form__ul--contenido a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+/*hover de los iconos y texto de la barra*/
+.content-form__ul--contenido:hover>a {
+	color: #ccc;
+}
+
+.content-form__ul--contenido:hover {
+	color: #ccc;
+
+}
+
+/*imagen de la barra de navegacion*/
+.content-form__ul--imagen {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	position: relative;
+	display: inline-block;
+	top: 19px;
+	border: 1px solid white;
+	border-radius: 21px;
+
+}
+
+
+
+/*imagen de fondo de la moto*/
+#imagen1 {
+	
+	object-fit: cover;
+	margin: 12px 5px;
+	border: 2px solid white;
+	border-radius: 32px;
+	position: absolute;
+	top: 103px;
+	z-index: -1;
+	width: 100%;
+	height: 1000px;
+	object-fit: cover;
+	
+	
+
+
+}
+
+
+
+
+
+
+/*formlulario*/
+
+
+
+.contact-form__div--formulario{
+	position: relative;
+	top: 110px;
+	left: 80px ;
+	font-family: cursive;
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 840px;
+	width: 500px;
+	box-shadow: 1px 1px 10px 5px #00b7ff91;
+	background: rgba(255, 255, 255, 0.247);
+}
+
+
+.contact-form__div--formulario-contenido {
+	color: rgb(0, 0, 0);
+	font-weight: bolder;
+	margin: 10px;
+	border-radius: 10px;
+	border-width: 5px;
+	transition: all 1s;
+}
+.contact-form__div--formulario-contenido input {
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+	margin: 10px;
+
+}
+#contenido {
+	position: relative;
+	left: 30px;
+	top: -36px;
+}
+.contact-form__div--formulario-contenido:focus {
+	background: rgba(0, 225, 255, 0.281);
+}
+
+.contact-form__div--formulario h2{
+	padding: 10px;
+	font-size: 35px;
+	font-family: cursive;
+	
+
+}
+.linea{
+	border: 1px solid white;
+	box-shadow: 1px 1px 10px 5px #00b7ff91;
+
+}
+/*BOTON REGISTRO*/ 
+#boton{
+	position: relative;
+	top: -120px;
+	left: 4px;
+	border: 2px solid blue;
+	box-shadow: 1px 1px 10px 5px #00b7ff91;
+	cursor: pointer;
+	padding: 10px;
+	margin: 70px 20px ;
+
+}
+#condiciones1{
+	position: relative;
+	top: -10px;
+}
+#boton:hover{
+	background: #00c3ff83;
+}
+
+#marcas2{
+	margin: 10px;
+	padding: 5px ;
+	color: rgb(0, 0, 0);
+	font-weight: bolder;
+	margin: 10px;
+	border-radius: 10px;
+	border-width: 5px;
+}
+
+
+
+
+
+
+
+/*login*/
+
+.formulario-login{
+	position: relative;
+	top: -600px;
+	left: 700px ;
+	font-family: cursive;
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 200px;
+	width: 500px;
+	box-shadow: 1px 1px 10px 5px #00b7ff91;
+	background: rgba(255, 255, 255, 0.247);
+}
+/*contenido login*/
+
+.formulario-contenido-input{
+	color: rgb(0, 0, 0);
+	font-weight: bolder;
+	margin: 10px;
+	border-radius: 10px;
+	border-width: 5px;
+	transition: all 1s;
+
+}
+
+.formulario-contenido-input input{
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+	margin: 10px;
+
+}
+
+.formulario-contenido-input:focus{
+	background: rgba(0, 225, 255, 0.281);
+}
+
+.formulario-contenido-input h2 {
+	padding: 10px;
+	font-size: 35px;
+	font-family: cursive;
+}
+
+.linea2{
+	border: 1px solid white;
+	box-shadow: 1px 1px 10px 5px #00b7ff91;
+}
+/*BOTON LOGIN*/ 
+#boton1{
+	position: relative;
+	top: -60px;
+	left: 50px;
+	border: 2px solid blue;
+	box-shadow: 1px 1px 10px 5px #00b7ff91;
+	cursor: pointer;
+	padding: 10px;
+}
+#boton1 a{
+	text-decoration: none;
+}
+#boton1:hover{
+	background: #00c3ff83;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*caracteristicas para el body*/
+body {
+	background: rgba(153, 217, 235, 0.527);
+	font-family: "Roboto Mono", monospace;
+	font-weight: bolder;
+}
+
+/*efecto de seleccion de texto p */
+p::selection {
+	color: rgb(0, 136, 255);
+	background: black;
+	font-weight: bolder;
+}
+
+
+
+
+
+/*contendido del titulo principal */
+
+.contact-form__div--introduccion h2 {
+	border: 1px solid blueviolet;
+	border-radius: 30px;
+	text-align: center;
+	background: rgb(0, 87, 218);
+	font-size: 25px;
+	padding: 5px;
+	cursor: pointer;
+	height: 50px;
+	width: 100%;
+	border: 2px solid blueviolet;
+	border-radius: 20px;
+	box-shadow: 1px 1px 20px 5px rgb(255, 000, 255);
+	font-weight: bolder;
+	transition: all 2s, left 2s, position 1s;
+	text-align: center;
+	margin: 10px;
+
+}
+.contact-form__div--introduccion h4{
+	margin: 10px 2px 3px 18px ;
+	color: rgb(0, 87, 218) ;
+	text-shadow: 2px 2px 3px #fff;
+	font-weight: bolder;
+	font-size: 20px;
+	border: 2px solid gray;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.contact-form__div--introduccion p{
+	border:1px solid gray;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	transition: all 2s;
+}
+.contact-form__div--introduccion p:hover{
+	background-color: rgba(0, 255, 255, 0.24);
+	border: 1px solid gray;
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px 5px gray;
+}
+
+
+
+
+/*hover titulo principal*/
+.contact-form__div--introduccion h2:active {
+	height: 50px;
+	width: 600px;
+	background: rgb(255, 194, 80);
+	font-family: cursive;
+	cursor: grab;
+	margin: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 30px 20px rgb(255, 000, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*diseño de footer*/
+
+.contact-form__--footer{
+	background: rgb(0, 0, 0) ;
+	color: rgb(255, 255, 255);
+	border:5px solid blue;
+	display:block;
+	margin:auto;
+	height:1800px;
+	position: relative;
+
+}
+
+
+
+
+
+
+
+
+/*Informacion relevante*/
+.contact-form__div--texto{
+	font-family: "Roboto Mono", monospace;
+	position: relative;
+	top:  8px;
+	left: 85px;
+	margin: 20px;
+	padding: 2px;
+	text-align: center;
+	
+}
+
+.contact-form__div--texto p{
+	font-size: 12px;
+}
+.contact-form__div--texto h2{
+	font-size: 14px;
+	font-weight: bolder;
+	padding: 10px;
+	color: blue;	
+}
+.contact-form__div--texto li{
+	font-size: 12px;
+	list-style-type: none;
+}
+
+
+
+
+.contact-form__div--texto-1{
+	margin: 5px;
+	position: relative;
+	left: -530px;
+	top: -100px ;
+}
+.contact-form__div--texto-2{
+	margin: 5px;
+	position: relative;
+	left: -200px ;
+	top: -195px;
+}
+.contact-form__div--texto-3{
+	margin: 5px;
+	width: 150px;
+	height: 250px;
+	position: relative;
+	left: -5px;
+	top: -75px;
+}
+/*correo que envia*/
+.contact-form__div--texto-4{ 
+	margin: 5px;
+	width: 150px;
+	height: 250px;
+	position: relative;
+	left: 350px;
+	top: -320px;
+}
+/*correo que envia*/
+.contact-form__input-placeholder{
+	position: relative;
+	top: -460px;
+	left: -120px;
+	z-index: 3;
+}
+/*correo que envia*/
+#contact-form__input-placeholder-input::placeholder{
+	color: blue;
+	font-weight: bolder;
+	text-align: center;
+}
+
+
+
+
+/*imagen de redes sociales FOOTER */
+.contact-form__div--footer--imagen img{
+	width:80px ;
+	height: 80px;
+	position: relative;
+	top: 460px;
+	left: 410px;
+	z-index: 130;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.contact-form__div--footer--imagen img:hover{
+	width:80px ;
+	height: 80px;
+	position: relative;
+	top: 460px;
+	left: 410px;
+	z-index: 130;
+	background: gray;
+}
+
+/*imagen logo footer*/
+.contact-form__div--footer--imagen-logo img{
+	width:200px ;
+	height: 200px;
+	position:relative;
+	top:100px;
+	left:550px;
+	border-radius: 100px;
+
+}
+/*contactos con iconos*/
+.contact-form__div--texto2{
+	color: rgb(255, 255,  255);
+	position: relative;
+	top:  -600px;
+	left: 810px;
+}
+
+.contact-form__div--texto2--contenido a{
+	text-decoration: none;
+	color: white ;
+
+
+}
+.contact-form__div--texto2--contenido a:hover{
+	color: rgb(17, 0, 255);
+
+}
+
+.contact-form__div--texto2--contenido i{
+	padding: 1px;
+	margin: 12px;
+}
+
+
+
+
+
+
+
+
+/*envio correo*/
+#contact-form__input-placeholder{
+	position: relative;
+	left: -90px;
+	border: 1px solid border red ;
+	width: 130px;
+}
+.contact-form__input-placeholder-submit{
+	position: relative;
+	top: -18px;
+
+
+}
+.contact-form__input-placeholder-submit:hover{
+	position: relative;
+	top: -18px;
+	box-shadow: 1px 1px 2px 3px blueviolet;
+
+}
+.contact-form__input-placeholder-submit::placeholder{
+	position: relative;
+	top: -18px;
+	color: green;
+
+
+
+}
+.contact-form__input-placeholder-submit:hover{
+	position: relative;
+	top: -18px;
+	color: black;
+	outline: 1px solid blueviolet;
+	box-shadow: 1px 1px 10px 10px blueviolet;
+	background: #00ffff;
+	font-weight: bolder;
+
+}
+
+
+
+
+

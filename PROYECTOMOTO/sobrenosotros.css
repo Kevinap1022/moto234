@@ -1,0 +1,47 @@
+.tabla{
+    border:1px dotted gray;
+    margin:60px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px 12px #fff;
+    transition: all 3s;
+    cursor: grab;
+}
+.secciones{
+    border:1px solid gray;
+    margin:10px 10px;
+    color: rgba(0, 38, 255, 0.918);
+    background: rgba(174, 174, 255, 0.603);
+    font-size: 23px;
+    font-weight: bolder;
+    border-radius: 10px;
+    
+}
+.primeraseccion{
+    border:1px solid gray;
+    margin:10px 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(128, 128, 132, 0.37);
+    border-radius: 10px;
+    
+}
+
+
+.tabla tr{
+    transition: all 3s;
+}
+
+.tabla tr:active{
+    background: rgba(166, 252, 255, 0.678);
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bolder;
+    cursor: grabbing;
+    
+    
+}
+
+td::selection{
+    color: red;
+    background: rgb(176, 176, 255);
+}
